@@ -324,7 +324,7 @@ def dump_massal():
 	except IOError:
 		exit()
 	try:
-		jum = int(input('>> YOU TARGET ID : '))
+		jum = int(input('>> TOTAL TARGET ID : '))
 	except ValueError:
 		print('>> Masukkan Angka  ')
 		exit()
